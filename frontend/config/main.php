@@ -44,5 +44,10 @@ return [
             'useFileTransport' => false,
         ],
     ],
+    'modules' => [
+        'book' => [
+            'class' => 'frontend\modules\book\Book',
+        ],
+    ],
     'params' => $params,
 ];
